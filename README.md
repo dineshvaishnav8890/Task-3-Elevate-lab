@@ -108,6 +108,12 @@ resource "docker_container" "nginx" {
 # docker ps
 
 
+
+Access in browser: http://localhost:8080 (should show NGINX welcome page)
+
+
+
+
 ✅ Step 7: Inspect Terraform State
 
 # terraform state list
